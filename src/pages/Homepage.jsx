@@ -16,7 +16,7 @@ function Homepage() {
             </div>
             <div>
                 <img src={randomBeerImage} alt="random beers" />
-                <Link to="/random-beer"><h1>Random Beers</h1></Link>
+                <Link to="/beers/random"><h1>Random Beers</h1></Link>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus mi eu commodo varius. Aenean a leo sagittis, elementum turpis ac, interdum leo. Etiam neque dui, fringilla sit amet lacus quis, blandit imperdiet metus. Vivamus elementum nibh at gravida consequat. Duis est diam, facilisis in neque placerat, condimentum sodales neque. Donec tincidunt semper tincidunt. Nunc hendrerit mi massa, vitae gravida justo dignissim sed. Phasellus sed semper nisi. Aenean risus erat, blandit ac ipsum quis, accumsan dictum purus.</p>
             </div>
             <div>

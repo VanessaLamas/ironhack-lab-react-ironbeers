@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function ListBeers() {
     const [beers, setBeers] = useState([])
-    const fetchUserData = () => {
+    const fetchAllBeersData = () => {
         fetch("https://ih-beers-api2.herokuapp.com/beers")
             .then(response => {
                 return response.json()
@@ -15,7 +15,7 @@ function ListBeers() {
             })
     }
     useEffect(() => {
-        fetchUserData()
+        fetchAllBeersData()
     }, [])
     return (
         <div className="App">
