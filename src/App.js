@@ -7,6 +7,8 @@ import RandomBeer from './pages/RandomBeer';
 import SingleBeer from './pages/SingleBeer';
 import NewBeer from './pages/NewBeer';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Routes, Route } from "react-router-dom";
 
 function App() {
