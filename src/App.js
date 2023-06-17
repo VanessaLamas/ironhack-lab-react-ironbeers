@@ -5,6 +5,7 @@ import Homepage from './pages/Homepage';
 import ListBeers from './pages/ListBeers';
 import RandomBeer from './pages/RandomBeer';
 import SingleBeer from './pages/SingleBeer';
+import NewBeer from './pages/NewBeer';
 
 import { Routes, Route } from "react-router-dom";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/beers" element={<ListBeers />} />
         <Route path="/beers/:beerId" element={<SingleBeer />} />
         <Route path="/beers/random" element={<RandomBeer />} />
+        <Route path="/new-beer" element={<NewBeer />} />
       </Routes>
     </div>
   );
