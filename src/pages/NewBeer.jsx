@@ -97,7 +97,7 @@ function NewBeer() {
                         />
                     </div> </div>
                 <div className="form-group row m-2">
-                    <label className="col-sm-2 col-form-label" htmlFor="contributed_by">Crontibuted By</label>
+                    <label className="col-sm-2 col-form-label" htmlFor="contributed_by">Contributed By</label>
                     <div className="col-sm-10">
                         <input className="form-control" type="text" id="contributed_by" name="contributed_by"
                             value={contributed_by}
