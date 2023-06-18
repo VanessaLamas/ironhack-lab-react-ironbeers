@@ -20,15 +20,15 @@ function ListBeers() {
         <div classNameName="App">
             <div>
                 {beers.length > 0 && (
-                    <ul style={{ listStyle: "none", padding: 0, display: "flex", flexWrap: "wrap"}}>
+                    <ul style={{ listStyle: "none", padding: 10, display: "flex", flexWrap: "wrap", justifyContent: "space-evenly"}}>
                         {beers.map(beer => (
                             <div key={beer._id}>
                             <div className="card" style={{width: "20rem", display: "flex", margin: "10px", flexDirection: "column", alignItems: "center"}}>
                             <img src={beer.image_url}  style={{margin: "10px", height: "13rem", width: "5rem"}} alt={beer.name}/>
                             <div className="card-body">
-                            <li className="card-text ">{beer.tagline}</li>
-                            <li className="card-text">Created by: {beer.name}</li>
-                            <Link className="btn btn-primary" to={beer._id}><li className="card-title">{beer.name}</li></Link>
+                            <li className="card-text m-1">{beer.tagline}</li>
+                            <li className="card-text m-3">Created by: {beer.name}</li>
+                            <Link className="btn btn-primary m-2" to={beer._id}><li className="card-title">{beer.name}</li></Link>
                             </div>
                             </div>
                             </div>
